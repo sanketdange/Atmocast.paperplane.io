@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atmocast</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400i" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Atmocast</h1>
+		<h3>by Sanket Dange</h3>
+	</header>
+
+	<section id="site-content">
+		<center>
+			<div id="clock">
+				<div id="hHand" class="hand"></div>
+				<div id="mHand" class="hand"></div>		
+				<div id="sHand" class="hand"></div>
+				<div id="clockCenter"></div>
+			</div>
+			<input name="location" id='zip'>
+			<br>
+			<input type='date' name="date" id='date'>
+			<br>
+			<button onclick="onSubmit()" id="submit">Get your Forecast</button>
+		</center>
+	</section>
+
+	<footer>
+		<div id="footer-content">
+			<br>
+			Made with Weather Underground
+		</div>
+	</footer>
+	
+	<script src="script.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	
+</body>
+</html>

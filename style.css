@@ -1,0 +1,187 @@
+body {
+    position: relative;
+    height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    background-image: url("img1.jpg");
+    background-size: auto 140%;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    height: 17%;
+    width: 100%;
+    top: -1px;
+    left: -1px;
+    border: 1px solid #FFF;
+    background-color: rgba(100 , 100, 100 ,0.6);
+    border-color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: italic;
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    line-height: 105%;
+    z-index: 10;
+}
+
+#clock {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin-top: 11%;
+    border: 5px solid white;
+    border-radius: 360px;
+}
+div.hand {
+	position: relative;
+    width: 2%;
+    background-color: white;
+    z-index: 1;
+}
+
+#clockCenter {
+	position: relative;
+    height: 5%;
+    width: 5%;
+    top: -2.5%;
+    border-radius: 360%;
+    background-color: white;
+    z-index: 3;
+}
+
+#hHand {
+    height: 40%;
+    margin-top: 10%;
+}
+#mHand {
+	height: 45%;
+    margin-top: -45%;
+}
+#sHand {
+    height: 50%;
+    margin-top: -50%;
+}
+
+input:focus {
+    outline: 0;
+}
+
+input {
+    position: relative;
+    height: 40px;
+    width: 14%;
+    border: 1px solid white;
+    opacity: 0%;
+    border-radius: 20px;
+    /*background-color: #34007F;*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: italic;
+    font-size: 120%;
+    /*color: white;*/
+    text-align: center;
+}
+
+#zip {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+::placeholder {
+    color: black;
+}
+
+#date {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
+input[type="date"]::-webkit-clear-button {
+ -webkit-appearance: none;
+  display: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  display: none;
+}
+
+input.ui-datepicker-trigger{
+    left: 100px;
+}
+
+#submit {
+    position: relative;
+    height: 100px;
+    width: 20%;
+    margin-top: 1%;
+    padding: 0px;
+    border: 1px solid #FFF;
+    border-color: white;
+    /*color: white;*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+    opacity: 0%;
+}
+#submit:hover {
+    border: 2px solid #FFF;
+}
+#submit:focus {
+    outline: 0;
+}
+#submit:active {
+    background-color: #1E043D;
+}
+
+div.weatherIcons {
+    position: relative;
+    background-color: white;
+    height: 125px;
+    width: 100px;
+    margin-left: 20px;
+    border: 1px solid #FFF;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+div.weatherIcons:hover{
+	height: 150px;
+    width: 120px;
+    margin-top: -12.5px;
+    margin-left: 10px;
+    font-size: 20px;
+    z-index: 5;
+}
+
+#footer-content{
+	position: relative;
+	vertical-align: middle;
+}
+
+footer {
+    position: relative;
+    height: 10%;
+    width: 100%;
+    top: 70%;
+    left: -1px;
+    border: 1px solid #FFF;
+    background-color: rgba(100 , 100, 100 ,0.6);
+    border-color: white;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    
+}
